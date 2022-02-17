@@ -1,16 +1,19 @@
-.flex-container {
+.flexbox-container {
     display: flex;
     /* flex-direction: row;
     flex-wrap: nowrap; */
     flex-flow: row nowrap;
-    justify-content: center;
-    align-content: center;
+    /* justify-content: center; */
+    /* align-content: center; */
     background: rgb(1, 56, 82);
+    padding: 0.5%;
 
 }
 
-.flex-container div {
+.flexbox-container div {
     background: rgb(90, 174, 243);
     width: 20%;
-    
+    height: 400px;
+    margin: auto;
+
 }
